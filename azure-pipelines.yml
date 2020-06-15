@@ -20,9 +20,9 @@ steps:
     resourceGroupName: 'AzureRmPipeline-rg'
     location: 'Central US'
     templateLocation: 'Linked artifact'
-    csmFile: 'armtestrepo/azuredeploy.json'
     overrideParameters: '-projectname test2 -linkedTemplateUri https://raw.githubusercontent.com/shikhagupta2020/armtestrepo/master/azuredeploy.parameters.json'
     deploymentMode: 'Incremental'
-    deploymentName: 'testDeploy'
+    deploymentName: 'deploytest2'
+    csmFile: 'armtestrepo/azuredeploy.json'
     csmParametersFile: 'azuredeploy.parameters.json'
     
